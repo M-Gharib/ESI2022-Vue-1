@@ -2,7 +2,7 @@
 <div id= "comp-list-one">
         <h1>This is Plants list Componenet </h1>
 <ul>
-<li class="item" v-for="plant in plantsList" :key="plant.id">
+<li class="item" v-for= "plant in plantsList" :key="plant.id">
 <span class="id"> <b>Id:</b> {{plant.id}} </span><br>
 <span class="type"> <b>Plant type:</b> {{plant.type}} </span> 
 <span class="description"> <b>Plant description:</b> {{plant.description}} </span>

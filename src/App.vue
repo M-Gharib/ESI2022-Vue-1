@@ -3,6 +3,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/plants">Plants</router-link> |
+      <router-link to="/allplants">All Plants</router-link> |
+      <router-link to="/aplant">A Plant</router-link> |
+      <router-link to="/addplant">Add Plant</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
